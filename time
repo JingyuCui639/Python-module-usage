@@ -1,7 +1,8 @@
-Use package time to strack the time used to run the script
-import time
+Usage 1. Use package time to strack the time used to run the script
 
-start=time.perf_counter()
-...
-finish=time.perf_counter()
-print(f"Times used is round({finish-start}) second(s). )
+  import time
+
+  start=time.perf_counter()
+  ...
+  finish=time.perf_counter()
+  print(f"Times used is round({finish-start}) second(s). )
