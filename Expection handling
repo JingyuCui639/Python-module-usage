@@ -1,0 +1,20 @@
+#Handling errors ocuurs while running the code
+
+try:
+  #the code that may generate errors
+except:
+  #the opration run when the errors happen
+finally:
+  #the code run anyway under all circumstances.
+  
+#Example:
+
+try: 
+  numerator=int(input("Enter numerator:"))
+  denominator=int(input("Enter denominator:"))
+  result=numerator/denominator
+  print(f"{numerator}/{denominator}={result}")
+except ZeroDivisionError:
+  print("The denominator can not be zero.")
+finally:
+  print("The program finished.")
