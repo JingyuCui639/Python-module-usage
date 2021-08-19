@@ -1,0 +1,2 @@
+Use package time to strack the time used to run the script
+import time
